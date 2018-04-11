@@ -1,0 +1,47 @@
+body {
+    background-image: url("christmas.gif");
+}
+
+p {
+    background-color: pink;
+}
+
+.greenText {
+    color: green;
+}
+
+.orangeText {
+    color: orange;
+}
+
+.firstParagraph {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.secondParagraph {
+    font-size: 31px;
+}
+
+/* CSS comment goes here */
+.photo {
+    width: 300px;
+    height: 300px;
+
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.table, .table td {
+    border:3px solid #000000;
+    border-collapse: collapse;
+    background-color: #13757a;
+}
+
+
+
+.img-circle {
+    border-radius: 50%;
+}

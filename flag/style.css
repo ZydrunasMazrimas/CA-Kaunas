@@ -1,0 +1,17 @@
+.red{
+    background-color: #C1272D;
+    height: 200px;
+}
+.green{
+    background-color: #006A44;
+    height: 200px;
+}
+.yellow{
+    background-color: #FDB913;
+    height: 200px;
+}
+.vycka{
+    position: static;
+    width: 500px;
+    height: 500px;
+}

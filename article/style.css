@@ -1,0 +1,7 @@
+.boldItallic {
+    font-weight: bold;
+    font-style: italic;
+}
+.img-circle {
+    border-radius: 50%;
+}

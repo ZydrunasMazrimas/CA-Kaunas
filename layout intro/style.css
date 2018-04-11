@@ -1,0 +1,28 @@
+span{
+    font-size: 26px;
+}
+
+.square{
+    background: orange;
+    padding: 50px; 
+    border: 5px purple solid;
+    margin: 100px;
+}
+
+.square2{
+    background: olivedrab;
+}    
+
+.square2 span{
+    margin-bottom: 30px;
+    display: block;
+}
+
+.square3{
+    background: blue;
+    margin-top: 100px;
+    width: 960px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto; 
+}

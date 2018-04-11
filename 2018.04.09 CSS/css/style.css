@@ -1,0 +1,30 @@
+body {
+    background: #efefef;
+    margin: 0px;
+}
+
+#w1 {
+    margin-right: 20px;
+}
+
+.d1 {
+    width: 960px;
+    height: 200px;
+    background: orange;
+}  
+
+.d2 {
+    width: 30rem;
+    height: 200px;
+    background: green;
+}
+
+#w1:hover{
+    color: blue;
+    -webkit-transition: 3s;
+    transition: 3s;
+}
+
+span {
+    font-family: 'Hi Melody', cursive;
+}

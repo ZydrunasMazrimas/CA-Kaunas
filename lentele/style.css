@@ -1,0 +1,10 @@
+.table, .table td, .table th {
+    border:1px solid #000000;
+    border-collapse: collapse;    
+}
+tr:nth-child(odd) td {background-color: #28f0f0;}
+
+.firstRow th {
+    font-weight: bold;
+    background: #6a28d4;
+}

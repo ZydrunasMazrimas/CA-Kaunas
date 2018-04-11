@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms intro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+            <h1>Anketa</h1>
+        <form>
+            
+            <label for="firstname" class="lbl">Vardas</label>
+            <input type="text" name="firstname" id="firstname" class="txt-field" placeholder="Your name...">
+
+            <label for="lastname" class="lbl">Pavardė</label>
+            <input type="text" name="lastname" id="lastname" class="txt-field">
+
+            <label for="birthdate" class="lbl">Amžius</label>
+            <input type="text" name="birthdate" id="birthdate" class="txt-field">
+
+            <label for="city" class="lbl">Miestas</label>
+            <input type="text" name="city" id="city" class="txt-field">
+
+            <label for="country" class="lbl">Šalis</label>
+            <select class="select-field" id="country" name="country">
+                    <option value="LT">Lithuania</option>
+                    <option value="DE">Mercedes</option>
+                    <option value="LV">Latvia</option>
+                    <option value="EE">Estonia</option>
+                    <option value="RU">Russia</option>
+                    <option value="DK">Denmark</option>
+                    <option value="PL">Poland</option>
+            </select>
+        <div>
+            <input type="radio" id="r1" name="gender" value="M"> <label for="r1">Male</label>
+            <input type="radio" id="r2" name="gender" value="F"> <label for="r1">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="remember_me" name="remember_me" value="true">
+            <label for="remember_me">Remember me</label> 
+        </div>
+        <div>
+                        <input type="checkbox" id="d1" name="weekday" value="Monday">
+                        <label for="d1">Monday</label>
+                        <input type="checkbox" id="d2" name="weekday" value="Tuesday">
+                        <label for="d2">Tuesday</label>
+                        <input type="checkbox" id="d3" name="weekday" value="Wednesday">
+                        <label for="d3">Wednesday</label>
+        </div>
+
+        <div>
+                <textarea name="message" id="message">
+                    At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+                </textarea>
+        </div>
+            <button type="submit" class="btn"><i class="fas fa-fighter-jet"></i> Siūsti</button>
+
+        </form>
+    </div>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+</body>
+</html>

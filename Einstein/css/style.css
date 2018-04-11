@@ -1,0 +1,39 @@
+#main {
+    display: flex;
+    flex-flow: row;
+    background: darkgray;
+}
+    
+.article {
+    border-top: 5px solid cornsilk;
+    width: 260px;
+    padding: 20px;
+    margin: 0 20px;
+    background-color: cornsilk;
+}
+.article:hover {
+    border-top: 5px solid darkcyan;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-top: -3px;
+}
+
+.text-box {
+    margin: 20px 0px 0px 0px;
+    width: auto;
+    height: 375px;
+    background-color: red;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: cadetblue;
+}
+
+img {margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+
