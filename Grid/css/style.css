@@ -1,0 +1,19 @@
+body {
+    background-image: url(../img/hip-square.png);
+    background-color: #cccccc;
+}
+
+.content{
+    background: #FFF;
+    min-height: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+#main{
+    padding-top: 100px;
+}
+
+.row  {margin-bottom: 30px;
+}
+
